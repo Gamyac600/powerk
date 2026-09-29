@@ -1,0 +1,35 @@
+# powerk — files that should never be committed
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.log
+
+# ---- secrets ----
+# tokens / passwords / local credentials (pass them on the command line instead)
+*.secret
+*.token
+.env
+
+# ---- Android build output ----
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/captures/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---- editors / OS ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+

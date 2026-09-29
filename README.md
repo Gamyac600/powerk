@@ -14,6 +14,21 @@ phone, from a PC, from anywhere if you run the server on a VPS.
 
 ---
 
+## Contents
+
+- [How it works](#how-it-works)
+- [What's in here](#whats-in-here)
+- [Requirements](#requirements)
+- [Step 0 — provision the strip (once, for either mode)](#step-0--provision-the-strip-once-for-either-mode)
+- [Mode A — Local (home network only)](#mode-a--local-home-network-only)
+- [Mode B — Server (VPS, control from anywhere)](#mode-b--server-vps-control-from-anywhere)
+- [Android app (`android/`)](#android-app-android)
+- [Web UI and HTTP API](#web-ui-and-http-api)
+- [Protocol reference](#protocol-reference)
+- [Troubleshooting](#troubleshooting)
+- [What this does not do (on purpose)](#what-this-does-not-do-on-purpose)
+- [Need something built?](#need-something-built)
+
 ## How it works
 
 The strip dials a server IP that it stores in its own flash memory. Provisioning
